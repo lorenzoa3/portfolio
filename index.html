@@ -119,13 +119,13 @@
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingBachelor">
 											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion" href="#collapseBachelor" aria-expanded="false" aria-controls="collapseBachelor">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseBachelor" aria-expanded="false" aria-controls="collapseBachelor">
 													<img src="images/michLogo.png" alt="University Logo" style="width: 30px; height: auto; margin-right: 10px; margin-left: 5px">
 													Bachelor of Science in Engineering, Computer Science
 												</a>
 											</h4>
 										</div>
-										<div id="collapseBachelor" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingBachelor">
+										<div id="collapseBachelor" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingBachelor">
 											<div class="panel-body">
 												<p>
 													University of Michigan, Ann Arbor<br>
@@ -139,7 +139,7 @@
 											</div>
 										</div>
 									</div>
-			
+
 									<!-- Associate Degree -->
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingAssociate">
@@ -276,6 +276,11 @@
 												<a href="#">Trading Engine Server</a>
 												<span>2025</span>
 											</h2>
+											<p>
+												<a href="https://github.com/lorenzoa3/trading-engine-server" target="_blank">
+													View on GitHub
+												</a>
+											</p>
 											<ul>
 												<li>Engineered a multi-instrument trading engine from scratch using C#, implementing core features such as order book management, bid-ask spread calculation, and support for order addition, modification, and cancellation with extensible interfaces for scalability</li>
 												<li>Built a custom logging system, including text, database, trace, and console loggers with support for asynchronous logging and thread safety, directing detailed insights into system operations, errors, and performance metrics to local .log files</li>
